@@ -1,0 +1,81 @@
+
+/* PRESENTATION PAGE */
+
+.back {
+  color: #9db8ff;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.back:hover {
+  color: white;
+}
+
+.presentation {
+  padding: 55px 0;
+}
+
+.presentation hr {
+  border: 0;
+  border-top: 1px solid #344568;
+  margin: 35px 0;
+}
+
+.content {
+  background: #1c2947;
+  border: 1px solid #344568;
+  border-radius: 14px;
+  padding: 25px;
+  margin-bottom: 22px;
+}
+
+.content h2 {
+  color: #86a8ff;
+  margin-bottom: 18px;
+  font-size: 21px;
+}
+
+.content p,
+.content li {
+  color: #c3cce0;
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+.content ul {
+  padding-left: 22px;
+}
+
+.content li {
+  margin-bottom: 12px;
+}
+
+.content strong {
+  color: white;
+}
+
+.opinion {
+  border-color: #638fff;
+}
+
+.content h3 {
+  color: #86a8ff;
+  margin-top: 25px;
+  margin-bottom: 12px;
+  font-size: 25px;
+}
+
+@media (max-width: 600px) {
+  .presentation {
+    padding: 35px 0;
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  .content h2 {
+    font-size: 19px;
+  }
+}
